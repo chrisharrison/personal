@@ -63,7 +63,7 @@
         <h3>{{ $experience->title }}</h3>
         <p class="timeline"><i class="fa fa-calendar" aria-hidden="true"></i> {{ $experience->dateRange() }}</p>
         <p class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ $experience->location }}</p>
-        <p>{{ $experience->items()->enabled()->first()->description }}</p>
+        <p>{{ $experience->items()->enabled()->ordered()->first()->description }}</p>
         @endforeach
     </section>
 

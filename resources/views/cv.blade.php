@@ -46,7 +46,7 @@
 	    <p class="timeline"><i class="fa fa-calendar" aria-hidden="true"></i> {{ $experience->dateRange() }}</p>
 	    <p class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ $experience->location }}</p>
 	    <ul>
-	        @foreach ($experience->items()->get() as $item)
+	        @foreach ($experience->items()->ordered()->get() as $item)
 	        <li>{{ $item->description }}</li>
 	        @endforeach
 	    </ul>
