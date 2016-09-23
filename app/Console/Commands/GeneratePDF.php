@@ -14,7 +14,7 @@ class GeneratePDF extends Command
 
     public function handle()
     {
-        $process = new Process('wkhtmltopdf --margin-top 0 '.$this->argument('url').' '.public_path().'/chris-harrison-cv.pdf');
+        $process = new Process('wkhtmltopdf '.$this->argument('url').' '.public_path().'/chris-harrison-cv.pdf');
         $process->run();
 
         // executes after the command finishes

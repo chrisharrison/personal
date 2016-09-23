@@ -63,7 +63,7 @@
 	    <ul>
 	    	<li>Badminton</li>
 	    	<li>Politics</li>
-	    	<li>Designer card games</li>
+	    	<li>Designer board games</li>
 	    </ul>
     </section>
 
