@@ -11,6 +11,11 @@ h1 {
 
 section h2 {
     border: none;
+    margin-bottom: 0.8em;
+}
+
+section ul {
+	margin-bottom: 0;
 }
 
 #strap {
