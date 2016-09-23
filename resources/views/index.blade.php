@@ -65,6 +65,7 @@
         <p class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ $experience->location }}</p>
         <p>{{ $experience->items()->enabled()->ordered()->first()->description }}</p>
         @endforeach
+        <p><a href="{{ asset('chris-harrison-cv.pdf') }}" target="_blank" class="ink-button"><i class="fa fa-download" aria-hidden="true"></i> Download complete CV</a></p>
     </section>
 
 </body>
