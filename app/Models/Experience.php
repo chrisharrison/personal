@@ -17,11 +17,16 @@ class Experience extends Model
         return (int) date('Y') - (int) $earliestExperience->start->year;
     }
 
-	public function scopeEnabled($query)
+    public function scopeEnabled($query)
     {
         return $query->where('enabled', '=', true);
     }
 
+    public function scopeOrdered($query)
+    {
+        return $query->orderBy('start', 'desc'); 
+    }
+    
     public function items()
     {
         return $this->hasMany('App\Models\ExperienceItem');

@@ -28,7 +28,7 @@ class IndexController extends Controller
     {
         return [
             'skills' => Skill::enabled()->ordered()->get(),
-            'experiences' => Experience::enabled()->get(),
+            'experiences' => Experience::enabled()->ordered()->get(),
             'yearsExperience' => Experience::yearsExperience()
         ];
     }
