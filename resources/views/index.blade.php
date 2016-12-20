@@ -37,7 +37,7 @@
         <img src="{{ asset('img/chris-harrison.png') }}" id="avatar" alt="Chris Harrison (photo)">
         <h1>Chris Harrison</h1>
         <div id="shout-out">
-            I am a web/software development professional with 7 years of experience. I'm currently based in <a href="https://www.flickr.com/photos/roger-fleet/10315851485/" target="_blank">Cornwall, UK</a> at <a href="http://microtest.co.uk" target="_blank">Microtest</a>, writing clinical software used by the NHS.
+            I am a web/software development professional with 7 years of experience. I'm currently based in <a href="https://www.flickr.com/photos/levettday/23981049182/" target="_blank">Exeter, UK</a> at tech startup <a href="https://funeralzone.co.uk" target="_blank">Funeral Zone</a>, writing software to help the bereaved.
         </div>
         <nav id="buttons">
             <a href="{{ asset('chris-harrison-cv.pdf') }}" target="_blank" class="ink-button"><i class="fa fa-download" aria-hidden="true"></i> CV (PDF)</a>
