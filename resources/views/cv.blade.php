@@ -22,11 +22,11 @@
 	        <li>Started programming in BASIC on an Amstrad CPC microcomputer in 1997 at the age of 9.</li>
 	        <li>Wrote my first HTML page in 1999.</li>
 	        <li>I build responsive HTML/CSS frontends that are accessible and semantic. I have extensive experience with frontend Javascript frameworks.</li>
-	        <li>I build backend websites and APIs using web frameworks. Focussed on performance and handling multiple req/sec without race conditions or concurrency issues.</li>
+	        <li>I build backends and APIs using web frameworks. Focussed on performance and handling multiple req/sec without race conditions or concurrency issues.</li>
 	        <li>I build applications that scale well over multiple machines using queues. Have designed and deployed application infrastructures in AWS and Azure.</li>
-	        <li>I am a big Redis fan. I believe most relationships can work faster as a list or sorted set. I also write my own Lua scripts in Redis when atomicity is important.</li>
+	        <li>I'm a fan of representing low-level data structures in Redis. I also write my own Lua scripts in Redis when atomicity is important.</li>
 	        <li>Due to spending many years in Asia I am experienced in localisation and i18n.</li>
-	        <li>Have worked in a test-driven-design enviroment.</li>
+	        <li>Have worked in a test-driven environment.</li>
 	    </ul>
     </section>
 
