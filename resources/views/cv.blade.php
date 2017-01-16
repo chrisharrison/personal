@@ -26,7 +26,7 @@
 	        <li>I build applications that scale well over multiple machines using queues. Have designed and deployed application infrastructures in AWS and Azure.</li>
 	        <li>I am a big Redis fan. I believe most relationships can work faster as a list or sorted set. I also write my own Lua scripts in Redis when atomicity is important.</li>
 	        <li>Due to spending many years in Asia I am experienced in localisation and i18n.</li>
-	        <li>Have worked in a test-driven-design enviroment.</li>
+	        <li>Have worked in a test-driven-design environment.</li>
 	    </ul>
     </section>
 
