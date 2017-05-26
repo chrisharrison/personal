@@ -13,3 +13,4 @@
 
 Route::get('/', 'IndexController@index');
 Route::get('cv', 'IndexController@cv');
+Route::get('chris-harrison-cv.pdf', 'IndexConroller@cvPdf');
